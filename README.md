@@ -31,11 +31,13 @@ To run this project Firstly:-
 
 ## Example:-
 
-For creating blog and upload image as a parameter to imageUrl,
-        1. localhost:3000/Blog ---> with Post request and under body choose form-data instead of raw as we do as usual
+For creating blog and upload image as a parameter to imageUrl:-
+1. localhost:3000/Blog ---> with Post request and under body choose form-data instead of raw as we do as usual.
+
 :warning: The request should be POST
 
 Output:- Following in the screenshot it tells how we should enter data in form data.
+
 :warning: While uploading image make sure the key name should match upload.single(..)  here in application I have used Image so the name of the key name will be Image. 
 ![Screenshot from 2020-12-19 13-12-15](https://user-images.githubusercontent.com/73870819/102684412-4597b180-41fe-11eb-9495-1a2f855bd1f2.png)
 
